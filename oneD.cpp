@@ -79,7 +79,7 @@ int main()
 			/* analytical */
 			for (int n = 1; n <= 100; n++)
 			{
-				u[i] = ((sin(2 * pi - n * pi) / (2 * pi - n * pi)) - (sin(2 * pi + n * pi) / (2 * pi + n * pi))) * sin(n * pi * deltax) * exp(-1 * pi * pi * delt);
+				u[i] = ((sin(2 * pi - n * pi) / (2 * pi - n * pi)) - (sin(2 * pi + n * pi) / (2 * pi + n * pi))) * sin(n * pi * deltax) * exp(-1 * n * n * pi * pi * delt);
 			} 
 			deltax = deltax + delta;
 

@@ -1,6 +1,6 @@
-# 1D_Diffusion_Eqn_solution
+# 1D_Unsteady_Diffusion_Eqn_solution
 
-1D diffusion Equation solution with periodic boundary conditions and domain error calculation
+1D unsteady diffusion Equation solution with periodic boundary conditions and domain error calculation
 
 domain errors are calculated using analytical solution to the equation at each timestep 
 
